@@ -1,4 +1,6 @@
 member,git_author_name,git_email,role,modules_files,commit_shas,evidence_note,presenter
-Nguyễn Trọng Hùng (2A202603147),Nguyễn Trọng Hùng,ngtronghung004@gmail.com,Lead / Integrator & Core Algorithm,"src/pipeline.py; configs/lab.yaml; reports/; tests/test_t02_aa1.py",demo-180m,Core pipeline & governance gate,yes
-Member 2,Member 2,member2@example.com,Data & QA,"tests/; reports/metric_contract.md",demo-180m,Validation & unit testing,no
-Member 3,Member 3,member3@example.com,Reviewer & Report,"reports/group_report.md; demo/",demo-180m,Human review & audit analysis,no
+Nguyễn Trọng Hùng (2A202603147),Nguyễn Trọng Hùng,ngtronghung004@gmail.com,Lead / Integrator,"src/pipeline.py; configs/lab.yaml; run.ps1",demo-180m,Architecture & integration,yes
+Nguyễn Tấn Dũng (2A202603031),Nguyễn Tấn Dũng,scarlest2576@gmail.com,Data & Fixtures,"fixtures/; tools/verify_manifests.py",demo-180m,Data provenance & verification,no
+Bùi Kim Trại (2A202603176),Bùi Kim Trại,buikimtrai2k5@gmail.com,Core Algorithm,"src/pipeline.py; src/common/image_ops.py",demo-180m,Feature extraction & scoring,no
+Ngô Thị Minh Quang (2A202603146),Ngô Thị Minh Quang,minhquang17012005@gmail.com,QA & Unit Tests,"tests/test_t02_aa1.py; tests/test_cli.py",demo-180m,Validation & unit testing,no
+Nguyễn Thị Hương Giang (2A202603233),Nguyễn Thị Hương Giang,nthgiang0511@gmail.com,Human Review & Report,"reports/group_report.md; reports/metric_contract.md",demo-180m,Review queue & documentation,no

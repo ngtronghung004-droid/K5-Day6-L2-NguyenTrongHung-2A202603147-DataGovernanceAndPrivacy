@@ -9,7 +9,7 @@
 |---|---|
 | Group ID | AA1 |
 | Challenge | T02 · Raw QC Triage: ảnh mờ, lóa và thiếu sáng |
-| Thành viên (vai trò) | 1. Nguyễn Trọng Hùng - MSV: 2A202603147 - ngtronghung004@gmail.com (Lead / Core Algorithm & QA) · 2. Member 2 (Data & Fixtures) · 3. Member 3 (Human Review & Report) |
+| Thành viên (5 thành viên) + vai trò | 1. Nguyễn Trọng Hùng - 2A202603147 (Lead / Integrator) · 2. Nguyễn Tấn Dũng - 2A202603031 (Data & Fixtures) · 3. Bùi Kim Trại - 2A202603176 (Core Algorithm) · 4. Ngô Thị Minh Quang - 2A202603146 (QA & Unit Tests) · 5. Nguyễn Thị Hương Giang - 2A202603233 (Human Review & Report) |
 | Git URL | https://github.com/ngtronghung004-droid/K5-Day6-L2-NguyenTrongHung-2A202603147-DataGovernanceAndPrivacy |
 | Tag `demo-180m` (commit) | demo-180m |
 | Tag `final-24h` (commit) | final-24h |
@@ -129,11 +129,15 @@ python -m pytest tests/test_t02_aa1.py -v
 
 ## 10 · Team contribution
 
-| Học viên | Git author/email | Module / vai trò | Commit SHA / diff | Trình bày |
-|---|---|---|---|---|
-| Nguyễn Trọng Hùng (2A202603147) | Nguyễn Trọng Hùng <ngtronghung004@gmail.com> | Lead / Core Pipeline (`src/pipeline.py`), Tests (`tests/test_t02_aa1.py`), Config (`configs/lab.yaml`), Reports | `demo-180m` / `final-24h` | Có |
-| Member 2 | Member 2 <member2@example.com> | Data Verification, Metric Contract (`reports/metric_contract.md`) | `demo-180m` | Không |
-| Member 3 | Member 3 <member3@example.com> | Human Review Simulation & Group Report (`reports/group_report.md`) | `demo-180m` | Không |
+**Bảng 2 · Individual contribution evidence** (đối chiếu với `git shortlog -sne --all` và `reports/team_contributions.csv`)
+
+| Học viên | Git author/email | Module / vai trò | Commit SHA / diff chứng minh | Trình bày? |
+|---|---|---|---|:---:|
+| Nguyễn Trọng Hùng (2A202603147) | Nguyễn Trọng Hùng <ngtronghung004@gmail.com> | Lead / Integrator (`src/pipeline.py`, `configs/lab.yaml`, `run.ps1`) | `demo-180m` / `final-24h` | Có |
+| Nguyễn Tấn Dũng (2A202603031) | Nguyễn Tấn Dũng <scarlest2576@gmail.com> | Data & Fixtures (`fixtures/`, `tools/verify_manifests.py`) | `demo-180m` / `final-24h` | Không |
+| Bùi Kim Trại (2A202603176) | Bùi Kim Trại <buikimtrai2k5@gmail.com> | Core Algorithm (`src/pipeline.py`, `src/common/image_ops.py`) | `demo-180m` / `final-24h` | Không |
+| Ngô Thị Minh Quang (2A202603146) | Ngô Thị Minh Quang <minhquang17012005@gmail.com> | QA & Unit Tests (`tests/test_t02_aa1.py`, `tests/test_cli.py`) | `demo-180m` / `final-24h` | Không |
+| Nguyễn Thị Hương Giang (2A202603233) | Nguyễn Thị Hương Giang <nthgiang0511@gmail.com> | Human Review & Report (`reports/group_report.md`, `reports/metric_contract.md`) | `demo-180m` / `final-24h` | Không |
 
 ---
 
