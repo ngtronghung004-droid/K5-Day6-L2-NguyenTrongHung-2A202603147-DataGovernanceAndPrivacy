@@ -1,0 +1,4 @@
+member,git_author_name,git_email,role,modules_files,commit_shas,evidence_note,presenter
+Nguyễn Trọng Hùng (2A202603147),Nguyễn Trọng Hùng,ngtronghung004@gmail.com,Lead / Integrator & Core Algorithm,"src/pipeline.py; configs/lab.yaml; reports/; tests/test_t02_aa1.py",demo-180m,Core pipeline & governance gate,yes
+Member 2,Member 2,member2@example.com,Data & QA,"tests/; reports/metric_contract.md",demo-180m,Validation & unit testing,no
+Member 3,Member 3,member3@example.com,Reviewer & Report,"reports/group_report.md; demo/",demo-180m,Human review & audit analysis,no

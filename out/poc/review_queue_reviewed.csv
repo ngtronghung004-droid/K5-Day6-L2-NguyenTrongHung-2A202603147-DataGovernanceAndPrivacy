@@ -1,0 +1,21 @@
+rank,item_id,score,reason,suggested_action,slice,evidence_path,reviewer,reviewer_decision,override_value,review_note,reviewed_at
+1,img_00_2,1.0,compression (score=1.00),RECAPTURE,cam_B / day,images/img_00_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Nén JPEG nặng vỡ khối 8x8,2026-11-14T07:55:00Z
+2,img_00_3,1.0,blur (score=1.00),RECAPTURE,cam_B / day,images/img_00_3.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Mờ mất nét biên xe cộ,2026-11-14T07:55:00Z
+3,img_01_3,1.0,compression (score=1.00),RECAPTURE,cam_A / night,images/img_01_3.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Ảnh đêm vỡ hạt nén nặng,2026-11-14T07:55:00Z
+4,img_04_0,1.0,compression (score=1.00),RECAPTURE,cam_A / dusk,images/img_04_0.jpg,Nguyễn Trọng Hùng - 2A202603147,edit,KEEP,Biên dạng biển báo vẫn đọc được - giữ lại,2026-11-14T07:55:00Z
+5,img_04_2,1.0,compression (score=1.00),RECAPTURE,cam_A / dusk,images/img_04_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Nén mất thông tin làn đường,2026-11-14T07:55:00Z
+6,img_04_3,1.0,blur (score=1.00),RECAPTURE,cam_A / dusk,images/img_04_3.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Motion blur xe đối diện,2026-11-14T07:55:00Z
+7,img_05_2,1.0,compression (score=1.00),RECAPTURE,cam_A / day,images/img_05_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Nén JPEG chất lượng thấp,2026-11-14T07:55:00Z
+8,img_06_2,1.0,compression (score=1.00),RECAPTURE,cam_B / night,images/img_06_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Tối kết hợp vỡ khối,2026-11-14T07:55:00Z
+9,img_07_0,1.0,compression (score=1.00),RECAPTURE,cam_A / day,images/img_07_0.jpg,Nguyễn Trọng Hùng - 2A202603147,edit,KEEP,Chất lượng biên chấp nhận được - giữ lại,2026-11-14T07:55:00Z
+10,img_07_2,1.0,compression (score=1.00),RECAPTURE,cam_A / day,images/img_07_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Cháy nén vỡ hình,2026-11-14T07:55:00Z
+11,img_07_3,1.0,blur (score=1.00),RECAPTURE,cam_A / day,images/img_07_3.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Mờ toàn ảnh do ống kính bẩn,2026-11-14T07:55:00Z
+12,img_08_2,1.0,compression (score=1.00),RECAPTURE,cam_A / dusk,images/img_08_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Nén vỡ khối hoàng hôn,2026-11-14T07:55:00Z
+13,img_09_2,1.0,blur (score=1.00),RECAPTURE,cam_B / day,images/img_09_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Mờ mất nét camera B,2026-11-14T07:55:00Z
+14,img_10_0,1.0,compression (score=1.00),RECAPTURE,cam_A / day,images/img_10_0.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Artifact nén nghiêm trọng,2026-11-14T07:55:00Z
+15,img_10_2,1.0,compression (score=1.00),RECAPTURE,cam_A / day,images/img_10_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Nhiễu nén viền vật thể,2026-11-14T07:55:00Z
+16,img_10_3,1.0,compression (score=1.00),RECAPTURE,cam_A / day,images/img_10_3.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Blockiness cao,2026-11-14T07:55:00Z
+17,img_11_2,1.0,compression (score=1.00),RECAPTURE,cam_A / day,images/img_11_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Nén chất lượng 15,2026-11-14T07:55:00Z
+18,img_11_3,1.0,blur (score=1.00),RECAPTURE,cam_A / day,images/img_11_3.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Blur radius 5.0,2026-11-14T07:55:00Z
+19,img_12_2,1.0,compression (score=1.00),RECAPTURE,cam_B / dusk,images/img_12_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Nén khối cam B,2026-11-14T07:55:00Z
+20,img_13_2,1.0,compression (score=1.00),RECAPTURE,cam_A / night,images/img_13_2.jpg,Nguyễn Trọng Hùng - 2A202603147,reject,RECAPTURE,Nén ảnh đêm không thể nhận dạng,2026-11-14T07:55:00Z

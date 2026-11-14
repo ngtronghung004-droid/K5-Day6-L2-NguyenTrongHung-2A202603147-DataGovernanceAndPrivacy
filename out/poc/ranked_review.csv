@@ -1,0 +1,97 @@
+image_id,score,path,camera_id,light,split,pred_defect_type,pred_action,reason,slice
+img_00_3,1.0,images/img_00_3.jpg,cam_B,day,dev,blur,RECAPTURE,blur (score=1.00),cam_B / day
+img_00_2,1.0,images/img_00_2.jpg,cam_B,day,dev,compression,RECAPTURE,compression (score=1.00),cam_B / day
+img_01_3,1.0,images/img_01_3.jpg,cam_A,night,eval,compression,RECAPTURE,compression (score=1.00),cam_A / night
+img_07_0,1.0,images/img_07_0.jpg,cam_A,day,dev,compression,KEEP,compression (score=1.00),cam_A / day
+img_05_2,1.0,images/img_05_2.jpg,cam_A,day,eval,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_04_3,1.0,images/img_04_3.jpg,cam_A,dusk,dev,blur,RECAPTURE,blur (score=1.00),cam_A / dusk
+img_04_2,1.0,images/img_04_2.jpg,cam_A,dusk,dev,compression,RECAPTURE,compression (score=1.00),cam_A / dusk
+img_04_0,1.0,images/img_04_0.jpg,cam_A,dusk,dev,compression,KEEP,compression (score=1.00),cam_A / dusk
+img_06_2,1.0,images/img_06_2.jpg,cam_B,night,eval,compression,RECAPTURE,compression (score=1.00),cam_B / night
+img_07_3,1.0,images/img_07_3.jpg,cam_A,day,dev,blur,RECAPTURE,blur (score=1.00),cam_A / day
+img_07_2,1.0,images/img_07_2.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_23_3,1.0,images/img_23_3.jpg,cam_A,day,eval,dark,RECAPTURE,dark (score=1.00),cam_A / day
+img_22_2,1.0,images/img_22_2.jpg,cam_A,dusk,dev,compression,RECAPTURE,compression (score=1.00),cam_A / dusk
+img_19_2,1.0,images/img_19_2.jpg,cam_A,day,eval,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_21_3,1.0,images/img_21_3.jpg,cam_B,day,dev,compression,RECAPTURE,compression (score=1.00),cam_B / day
+img_21_2,1.0,images/img_21_2.jpg,cam_B,day,dev,blur,RECAPTURE,blur (score=1.00),cam_B / day
+img_16_2,1.0,images/img_16_2.jpg,cam_A,day,eval,blur,RECAPTURE,blur (score=1.00),cam_A / day
+img_17_3,1.0,images/img_17_3.jpg,cam_A,day,eval,dark,RECAPTURE,dark (score=1.00),cam_A / day
+img_13_2,1.0,images/img_13_2.jpg,cam_A,night,eval,compression,RECAPTURE,compression (score=1.00),cam_A / night
+img_13_3,1.0,images/img_13_3.jpg,cam_A,night,eval,blur,RECAPTURE,blur (score=1.00),cam_A / night
+img_15_3,1.0,images/img_15_3.jpg,cam_B,dusk,eval,dark,RECAPTURE,dark (score=1.00),cam_B / dusk
+img_15_2,1.0,images/img_15_2.jpg,cam_B,dusk,eval,blur,RECAPTURE,blur (score=1.00),cam_B / dusk
+img_14_2,1.0,images/img_14_2.jpg,cam_A,day,dev,blur,RECAPTURE,blur (score=1.00),cam_A / day
+img_14_3,1.0,images/img_14_3.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_12_2,1.0,images/img_12_2.jpg,cam_B,dusk,dev,compression,RECAPTURE,compression (score=1.00),cam_B / dusk
+img_10_0,1.0,images/img_10_0.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_10_3,1.0,images/img_10_3.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_11_3,1.0,images/img_11_3.jpg,cam_A,day,dev,blur,RECAPTURE,blur (score=1.00),cam_A / day
+img_11_2,1.0,images/img_11_2.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_10_2,1.0,images/img_10_2.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_09_2,1.0,images/img_09_2.jpg,cam_B,day,dev,blur,RECAPTURE,blur (score=1.00),cam_B / day
+img_08_2,1.0,images/img_08_2.jpg,cam_A,dusk,dev,compression,RECAPTURE,compression (score=1.00),cam_A / dusk
+img_17_1,1.0,images/img_17_1.jpg,cam_A,day,eval,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_17_2,1.0,images/img_17_2.jpg,cam_A,day,eval,glare,RECAPTURE,glare (score=1.00),cam_A / day
+img_19_3,1.0,images/img_19_3.jpg,cam_A,day,eval,blur,RECAPTURE,blur (score=1.00),cam_A / day
+img_23_2,1.0,images/img_23_2.jpg,cam_A,day,eval,compression,RECAPTURE,compression (score=1.00),cam_A / day
+img_22_0,1.0,images/img_22_0.jpg,cam_A,dusk,dev,compression,RECAPTURE,compression (score=1.00),cam_A / dusk
+img_22_3,1.0,images/img_22_3.jpg,cam_A,dusk,dev,compression,RECAPTURE,compression (score=1.00),cam_A / dusk
+img_01_2,0.9996,images/img_01_2.jpg,cam_A,night,eval,dark,RECAPTURE,dark (score=1.00),cam_A / night
+img_15_0,0.9903,images/img_15_0.jpg,cam_B,dusk,eval,compression,RECAPTURE,compression (score=0.99),cam_B / dusk
+img_18_3,0.961,images/img_18_3.jpg,cam_B,night,dev,blur,RECAPTURE,blur (score=0.96),cam_B / night
+img_20_2,0.8751,images/img_20_2.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=0.88),cam_A / day
+img_03_3,0.874,images/img_03_3.jpg,cam_B,night,eval,compression,RECAPTURE,compression (score=0.87),cam_B / night
+img_00_0,0.8676,images/img_00_0.jpg,cam_B,day,dev,compression,RECAPTURE,compression (score=0.87),cam_B / day
+img_12_3,0.8085,images/img_12_3.jpg,cam_B,dusk,dev,compression,RECAPTURE,compression (score=0.81),cam_B / dusk
+img_08_3,0.7824,images/img_08_3.jpg,cam_A,dusk,dev,dark,RECAPTURE,dark (score=0.78),cam_A / dusk
+img_05_3,0.6936,images/img_05_3.jpg,cam_A,day,eval,compression,RECAPTURE,compression (score=0.69),cam_A / day
+img_10_1,0.6729,images/img_10_1.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=0.67),cam_A / day
+img_20_0,0.6687,images/img_20_0.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=0.67),cam_A / day
+img_23_0,0.6684,images/img_23_0.jpg,cam_A,day,eval,compression,RECAPTURE,compression (score=0.67),cam_A / day
+img_11_1,0.663,images/img_11_1.jpg,cam_A,day,dev,compression,RECAPTURE,compression (score=0.66),cam_A / day
+img_05_0,0.6448,images/img_05_0.jpg,cam_A,day,eval,compression,REVIEW,compression (score=0.64),cam_A / day
+img_02_3,0.6437,images/img_02_3.jpg,cam_A,day,dev,compression,REVIEW,compression (score=0.64),cam_A / day
+img_02_2,0.6165,images/img_02_2.jpg,cam_A,day,dev,compression,REVIEW,compression (score=0.62),cam_A / day
+img_20_3,0.5862,images/img_20_3.jpg,cam_A,day,dev,compression,REVIEW,compression (score=0.59),cam_A / day
+img_08_0,0.5596,images/img_08_0.jpg,cam_A,dusk,dev,compression,REVIEW,compression (score=0.56),cam_A / dusk
+img_02_0,0.5114,images/img_02_0.jpg,cam_A,day,dev,compression,REVIEW,compression (score=0.51),cam_A / day
+img_22_1,0.4626,images/img_22_1.jpg,cam_A,dusk,dev,compression,REVIEW,compression (score=0.46),cam_A / dusk
+img_12_0,0.3921,images/img_12_0.jpg,cam_B,dusk,dev,compression,REVIEW,compression (score=0.39),cam_B / dusk
+img_17_0,0.3465,images/img_17_0.jpg,cam_A,day,eval,none,KEEP,clean,cam_A / day
+img_16_3,0.3175,images/img_16_3.jpg,cam_A,day,eval,none,KEEP,clean,cam_A / day
+img_09_3,0.3136,images/img_09_3.jpg,cam_B,day,dev,none,KEEP,clean,cam_B / day
+img_13_0,0.1295,images/img_13_0.jpg,cam_A,night,eval,none,KEEP,clean,cam_A / night
+img_14_1,0.1219,images/img_14_1.jpg,cam_A,day,dev,none,KEEP,clean,cam_A / day
+img_07_1,0.0,images/img_07_1.jpg,cam_A,day,dev,none,KEEP,clean,cam_A / day
+img_06_0,0.0,images/img_06_0.jpg,cam_B,night,eval,none,KEEP,clean,cam_B / night
+img_06_1,0.0,images/img_06_1.jpg,cam_B,night,eval,none,KEEP,clean,cam_B / night
+img_06_3,0.0,images/img_06_3.jpg,cam_B,night,eval,none,KEEP,clean,cam_B / night
+img_04_1,0.0,images/img_04_1.jpg,cam_A,dusk,dev,none,KEEP,clean,cam_A / dusk
+img_05_1,0.0,images/img_05_1.jpg,cam_A,day,eval,none,KEEP,clean,cam_A / day
+img_03_1,0.0,images/img_03_1.jpg,cam_B,night,eval,none,KEEP,clean,cam_B / night
+img_03_2,0.0,images/img_03_2.jpg,cam_B,night,eval,none,KEEP,clean,cam_B / night
+img_02_1,0.0,images/img_02_1.jpg,cam_A,day,dev,none,KEEP,clean,cam_A / day
+img_01_0,0.0,images/img_01_0.jpg,cam_A,night,eval,none,KEEP,clean,cam_A / night
+img_00_1,0.0,images/img_00_1.jpg,cam_B,day,dev,none,KEEP,clean,cam_B / day
+img_01_1,0.0,images/img_01_1.jpg,cam_A,night,eval,none,KEEP,clean,cam_A / night
+img_03_0,0.0,images/img_03_0.jpg,cam_B,night,eval,none,KEEP,clean,cam_B / night
+img_09_1,0.0,images/img_09_1.jpg,cam_B,day,dev,none,KEEP,clean,cam_B / day
+img_08_1,0.0,images/img_08_1.jpg,cam_A,dusk,dev,none,KEEP,clean,cam_A / dusk
+img_11_0,0.0,images/img_11_0.jpg,cam_A,day,dev,none,KEEP,clean,cam_A / day
+img_15_1,0.0,images/img_15_1.jpg,cam_B,dusk,eval,none,KEEP,clean,cam_B / dusk
+img_14_0,0.0,images/img_14_0.jpg,cam_A,day,dev,none,KEEP,clean,cam_A / day
+img_12_1,0.0,images/img_12_1.jpg,cam_B,dusk,dev,none,KEEP,clean,cam_B / dusk
+img_13_1,0.0,images/img_13_1.jpg,cam_A,night,eval,none,KEEP,clean,cam_A / night
+img_09_0,0.0,images/img_09_0.jpg,cam_B,day,dev,none,KEEP,clean,cam_B / day
+img_18_0,0.0,images/img_18_0.jpg,cam_B,night,dev,none,KEEP,clean,cam_B / night
+img_16_0,0.0,images/img_16_0.jpg,cam_A,day,eval,none,KEEP,clean,cam_A / day
+img_16_1,0.0,images/img_16_1.jpg,cam_A,day,eval,none,KEEP,clean,cam_A / day
+img_19_0,0.0,images/img_19_0.jpg,cam_A,day,eval,none,KEEP,clean,cam_A / day
+img_19_1,0.0,images/img_19_1.jpg,cam_A,day,eval,none,KEEP,clean,cam_A / day
+img_18_1,0.0,images/img_18_1.jpg,cam_B,night,dev,none,KEEP,clean,cam_B / night
+img_18_2,0.0,images/img_18_2.jpg,cam_B,night,dev,none,KEEP,clean,cam_B / night
+img_21_0,0.0,images/img_21_0.jpg,cam_B,day,dev,none,KEEP,clean,cam_B / day
+img_21_1,0.0,images/img_21_1.jpg,cam_B,day,dev,none,KEEP,clean,cam_B / day
+img_20_1,0.0,images/img_20_1.jpg,cam_A,day,dev,none,KEEP,clean,cam_A / day
+img_23_1,0.0,images/img_23_1.jpg,cam_A,day,eval,none,KEEP,clean,cam_A / day

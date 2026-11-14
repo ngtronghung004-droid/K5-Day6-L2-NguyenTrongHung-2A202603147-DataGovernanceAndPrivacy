@@ -1,0 +1,14 @@
+{
+  "status": "REWORK",
+  "reason_code": "HIGH_DEFECT_BURDEN",
+  "reason": "Severe defects detected in 20/20 priority items (100.0%). Hardware sensor cleaning & recapture recommended.",
+  "owner": "Nguyễn Trọng Hùng - 2A202603147 (QA Lead)",
+  "scope": "t02",
+  "evidence": [
+    "out\\poc\\ranked_review.csv",
+    "out\\poc\\review_queue.csv"
+  ],
+  "metrics": {},
+  "ts": "2026-11-14T08:20:08+00:00",
+  "canonical": "REWORK"
+}
