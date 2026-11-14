@@ -9,7 +9,7 @@
 |---|---|
 | Group ID | AA1 |
 | Challenge | T02 · Raw QC Triage: ảnh mờ, lóa và thiếu sáng |
-| Thành viên (5 thành viên) + vai trò | 1. Nguyễn Trọng Hùng - 2A202603147 (Lead / Integrator) · 2. Nguyễn Tấn Dũng - 2A202603031 (Data & Fixtures) · 3. Bùi Kim Trại - 2A202603176 (Core Algorithm) · 4. Ngô Thị Minh Quang - 2A202603146 (QA & Unit Tests) · 5. Nguyễn Thị Hương Giang - 2A202603233 (Human Review & Report) |
+| Thành viên (5 thành viên) + vai trò | 1. Nguyễn Trọng Hùng - 2A202603147 (Lead / Integrator) · 2. Nguyễn Tấn Dũng - 2A202603031 (Data & Fixtures) · 3. Bùi Kim Trại1 - 2A202603176 (Core Algorithm) · 4. Ngô Thị Minh Quang - 2A202603146 (QA & Unit Tests) · 5. Nguyễn Thị Hương Giang - 2A202603233 (Human Review & Report) |
 | Git URL | https://github.com/ngtronghung004-droid/K5-Day6-L2-NguyenTrongHung-2A202603147-DataGovernanceAndPrivacy |
 | Tag `demo-180m` (commit) | demo-180m |
 | Tag `final-24h` (commit) | final-24h |
