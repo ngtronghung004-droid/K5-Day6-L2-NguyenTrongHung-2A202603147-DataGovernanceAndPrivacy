@@ -134,7 +134,7 @@ python -m pytest tests/test_t02_aa1.py -v
 
 - **Rủi ro pháp lý & PII:** Dữ liệu synthetic CC0 không chứa khuôn mặt hoặc biển số thật; khi áp dụng lên dữ liệu thực tế (BDD100K) cần kích hoạt thêm mô hình làm mờ khuôn mặt/biển số (T07 Redaction) trước khi release.
 - **Điều chưa biết:** Nếu môi trường thời tiết có tuyết trắng dày đặc (snow cover), đặc trưng bão hòa sáng có thể bị nhiễu tương tự lóa đèn.
-- **Kế hoạch cải tiến:** Tích hợp mô hình nhẹ ONNX/YOLO nano offline để khoanh vùng ROI biển báo giao thông trước khi tính độ nét cục bộ.
+- **Kế hoạch cải tiến:** Tích hợp thêm mô hình nhẹ ONNX/YOLO nano offline để khoanh vùng ROI biển báo giao thông trước khi tính độ nét cục bộ.
 
 ## 10 · Team contribution
 
