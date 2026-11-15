@@ -118,8 +118,17 @@ python -m src.main --config configs/lab.yaml --output out/poc --run-name poc --o
 python -m pytest tests/test_t02_aa1.py -v
 ```
 
-- **Output của `pytest -q`:** 100% passed (5/5 tests nhóm + toàn bộ test suite hạ tầng).
-- **Môi trường:** Python 3.12 · Windows 11 · Offline guard active · Seed 42.
+- **Kiểm chứng lại ngày 2026-11-15:** `.venv\Scripts\python.exe -m pytest -ra` trên Python 3.11 / Windows: **64 passed, 39 skipped, 0 failed**. Các ca skipped cần ground truth riêng của giảng viên; chưa kiểm chứng lại các metric eval bằng lượt chạy này.
+- **Môi trường lần chạy PoC ban đầu:** Python 3.12 · Windows 11 · Offline guard active · Seed 42.
+
+### QA bổ sung ngày 2026-11-15
+
+- Bổ sung với hỗ trợ Codex theo yêu cầu của thành viên QA; thay đổi được ghi bằng danh tính Git `NgoThiMinhQuang <minhquang17012005@gmail.com>`.
+- `tests/test_t02_review_gate.py` có 12 ca: edit/reject chỉ thay action của ảnh được review; approve không áp override; prediction gốc, score và loại lỗi được giữ nguyên; audit lưu actor, timestamp, before/after và lý do, đồng thời giữ các dòng cũ.
+- Kiểm tra từ chối review thiếu người thực hiện hoặc có decision không hợp lệ; khi chưa có file review thì giữ prediction ban đầu.
+- Kiểm tra biên chính sách với B=20: 0/3 ảnh nghi lỗi nặng → HOLD, 4/13 → GO, 14/20 → REWORK. Score 0,60 được tính là nghi lỗi nặng; 0,59 không được tính. Đây là kiểm tra hành vi code, không chứng minh batch đã an toàn để release.
+- Phát hiện 170 file fixture lệch SHA-256 do checkout CRLF. Sau khi chỉ chuyển CRLF về LF, tất cả khớp hash đã có trong manifest. Commit `6179ef1` thêm `.gitattributes` để giữ LF khi clone trên Windows; không thay hash trong manifest.
+- Dữ liệu reviewer trong tests là giả lập, không phải bằng chứng đã review ảnh thật. Lượt QA này không đánh giá lại Recall/Precision và không thay đổi số liệu metrics có sẵn.
 
 ## 09 · Limitations & ethics
 
@@ -136,7 +145,7 @@ python -m pytest tests/test_t02_aa1.py -v
 | Nguyễn Trọng Hùng (2A202603147) | Nguyễn Trọng Hùng <ngtronghung004@gmail.com> | Lead / Integrator (`src/pipeline.py`, `configs/lab.yaml`, `run.ps1`) | `demo-180m` / `final-24h` | Có |
 | Nguyễn Tấn Dũng (2A202603031) | Nguyễn Tấn Dũng <scarlest2576@gmail.com> | Data & Fixtures (`fixtures/`, `tools/verify_manifests.py`) | `demo-180m` / `final-24h` | Không |
 | Bùi Kim Trại (2A202603176) | Bùi Kim Trại <buikimtrai2k5@gmail.com> | Core Algorithm (`src/pipeline.py`, `src/common/image_ops.py`) | `demo-180m` / `final-24h` | Không |
-| Ngô Thị Minh Quang (2A202603146) | Ngô Thị Minh Quang <minhquang17012005@gmail.com> | QA & Unit Tests (`tests/test_t02_aa1.py`, `tests/test_cli.py`) | `demo-180m` / `final-24h` | Không |
+| Ngô Thị Minh Quang (2A202603146) | NgoThiMinhQuang <minhquang17012005@gmail.com> | QA bổ sung: `tests/test_t02_review_gate.py`, `.gitattributes`; kết quả tại mục 08 | `6179ef1`; commit QA tra bằng `git log -- tests/test_t02_review_gate.py` | Không |
 | Nguyễn Thị Hương Giang (2A202603233) | Nguyễn Thị Hương Giang <nthgiang0511@gmail.com> | Human Review & Report (`reports/group_report.md`, `reports/metric_contract.md`) | `demo-180m` / `final-24h` | Không |
 
 ---
