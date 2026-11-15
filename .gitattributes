@@ -1,0 +1,2 @@
+# Fixture hashes are byte-sensitive; keep text files LF on Windows too.
+fixtures/** text=auto eol=lf
