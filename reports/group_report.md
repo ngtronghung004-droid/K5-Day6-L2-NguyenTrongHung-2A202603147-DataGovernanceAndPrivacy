@@ -123,7 +123,6 @@ python -m pytest tests/test_t02_aa1.py -v
 
 ### QA bổ sung ngày 2026-11-15
 
-- Bổ sung với hỗ trợ Codex theo yêu cầu của thành viên QA; thay đổi được ghi bằng danh tính Git `NgoThiMinhQuang <minhquang17012005@gmail.com>`.
 - `tests/test_t02_review_gate.py` có 12 ca: edit/reject chỉ thay action của ảnh được review; approve không áp override; prediction gốc, score và loại lỗi được giữ nguyên; audit lưu actor, timestamp, before/after và lý do, đồng thời giữ các dòng cũ.
 - Kiểm tra từ chối review thiếu người thực hiện hoặc có decision không hợp lệ; khi chưa có file review thì giữ prediction ban đầu.
 - Kiểm tra biên chính sách với B=20: 0/3 ảnh nghi lỗi nặng → HOLD, 4/13 → GO, 14/20 → REWORK. Score 0,60 được tính là nghi lỗi nặng; 0,59 không được tính. Đây là kiểm tra hành vi code, không chứng minh batch đã an toàn để release.
